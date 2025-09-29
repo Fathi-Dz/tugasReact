@@ -1,21 +1,13 @@
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contener from "./components/Contener";
-import Footer  from "./components/Footer";
+import PageLayout from "./components/Layouts/PageLayout";
 
-const App=() => {
+
+const App = () => {
   return (
-    <>
-      <Navbar />
-      <HeroSection />
-      <About />
-      <Projects />
-      <Contener />
-      <Footer />
-
-    </>
+    <PageLayout>
+      <main>
+        <h1 className="text-3xl font-bold underline">Welcome to the Porto Project</h1>
+      </main>
+    </PageLayout>
   );
 }
 
