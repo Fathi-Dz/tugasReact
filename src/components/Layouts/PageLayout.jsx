@@ -1,4 +1,5 @@
 import Footer from "../footer/Footer"
+
 import Navbar from "../navbar/Navbar"
 
  const PageLayout = (props) => {
@@ -6,6 +7,7 @@ import Navbar from "../navbar/Navbar"
         <>
             <Navbar />  
             {props.children}
+            
             <Footer />    
         </>
     )
