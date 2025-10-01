@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Certificate from "./components/Certificate";
+import Gallery from "./components/Gallery";
 import Contener from "./components/Contener";
 
 
@@ -13,6 +14,7 @@ const App = () => {
       <About />
       <Projects />
       <Certificate />
+      <Gallery />
       <Contener />
     </PageLayout>
   );
