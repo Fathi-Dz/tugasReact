@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import CER1 from "../assets/cert1.png";
 import CER2 from "../assets/cert2.png";
 import CER3 from "../assets/cert3.png";
+import CER4 from "../assets/dicoding.png";
 
 const Certificate = () => {
   useEffect(() => {
@@ -51,6 +52,11 @@ const Certificate = () => {
           <img
             src={CER3}
             alt="Sertifikat 3"
+            className="slide absolute inset-0 w-full h-full object-contain opacity-0 transition-opacity duration-1000 ease-in-out"
+          />
+          <img
+            src={CER4}
+            alt="Sertifikat 4"
             className="slide absolute inset-0 w-full h-full object-contain opacity-0 transition-opacity duration-1000 ease-in-out"
           />
         </div>
