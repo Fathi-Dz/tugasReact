@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import CER1 from "../assets/cert1.png";
 import CER2 from "../assets/cert2.png";
 import CER3 from "../assets/cert3.png";
-import CER4 from "../assets/dicoding.png";
+import CER4 from "../assets/dicoding.jpg";
 
 const Certificate = () => {
   useEffect(() => {
