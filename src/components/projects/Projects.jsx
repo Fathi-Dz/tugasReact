@@ -1,10 +1,9 @@
-import gambar from "../assets/code.jpg";
-import gambar1 from "../assets/coding.jpg";
-import gambar2 from "../assets/project.jpg";
-import gambar3 from "../assets/project1.jpg";
+
+import gambar2 from "../../assets/project.jpg";
+import gambar3 from "../../assets/project1.jpg";
 const Projects = () => {
     return (
-        <section id="projects" className="py-20 px-6 bg-gray-100">
+        <section id="projects" className="py-20 px-6 bg-gray-100 font-sans">
                 <div className="container mx-auto">
                   <h3 className="text-3xl font-bold text-center text-[#680000] mb-10">Proyek Gewe</h3>
                   <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

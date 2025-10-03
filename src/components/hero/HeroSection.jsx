@@ -1,8 +1,6 @@
 import { useEffect } from "react";
-import gambar from "../assets/code.jpg";
-import gambar1 from "../assets/coding.jpg";
-import gambar2 from "../assets/project.jpg";
-import gambar3 from "../assets/project1.jpg";
+import gambar from "../../assets/pp.jpg";
+
 const HeroSection = () => {
    useEffect(() => {
     const yearEl = document.getElementById("year");
@@ -21,7 +19,7 @@ const HeroSection = () => {
 
   return (
     <div id="hero">
-      <section className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 pt-24 bg-gradient-to-br from-[#680000] to-[#4b0000] text-white">
+      <section className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 pt-24 bg-gradient-to-br from-[#680000] to-[#4b0000] text-white font-sans">
 
         <div className="text-center max-w-lg pr-7 mb-20 md:text-left md:w-1/2">
           <h2 className="text-4xl md:text-5xl font-extrabold">

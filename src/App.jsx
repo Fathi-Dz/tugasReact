@@ -1,10 +1,10 @@
 import PageLayout from "./components/Layouts/PageLayout";
-import HeroSection from "./components/HeroSection";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Certificate from "./components/Certificate";
-import Gallery from "./components/Gallery";
-import Contener from "./components/Contener";
+import HeroSection from "./components/hero/HeroSection";
+import About from "./components/about/About";
+import Projects from "./components/projects/Projects";
+import Certificate from "./components/certificate/Certificate";
+import Gallery from "./components/gallery/Gallery";
+import Contener from "./components/contener/Contener";
 
 
 const App = () => {

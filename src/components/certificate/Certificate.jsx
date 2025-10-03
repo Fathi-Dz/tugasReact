@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import CER1 from "../assets/cert1.png";
-import CER2 from "../assets/cert2.png";
-import CER3 from "../assets/cert3.png";
-import CER4 from "../assets/dicoding.jpg";
+import CER1 from "../../assets/cert1.png";
+import CER2 from "../../assets/cert2.png";
+import CER3 from "../../assets/cert3.png";
+import CER4 from "../../assets/dicoding.jpg";
 
 const Certificate = () => {
   useEffect(() => {
@@ -32,7 +32,7 @@ const Certificate = () => {
   }, []);
 
   return (
-    <section id="certificate" className="py-16 bg-gray-50">
+    <section id="certificate" className="py-16 bg-gray-50 font-sans">
       <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">
         Sertifikat &amp; Pencapaian
       </h1>

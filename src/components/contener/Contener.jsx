@@ -1,12 +1,8 @@
-import gambar from "../assets/code.jpg";
-import gambar1 from "../assets/coding.jpg";
-import gambar2 from "../assets/project.jpg";
-import gambar3 from "../assets/project1.jpg";
-
+import gambar from "../../assets/code.jpg";
 const Contener = () => {
   return (
     <div>
-      <section className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-6 pt-24 bg-gradient-to-b from-gray-50 to-gray-100 text-gray-700">
+      <section className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-6 pt-24 bg-gradient-to-b from-gray-50 to-gray-100 text-gray-700 font-sans">
         <div className="max-w-lg text-center md:text-left md:w-1/2 space-y-6 md:pr-10">
           <h2 className="text-4xl md:text-5xl font-extrabold text-[#680000] leading-tight">
             Bangun{" "}
@@ -42,7 +38,7 @@ const Contener = () => {
         </div>
       </section>
 
-      <section className="py-16 text-center bg-[#680000] text-white px-6 mt-20 pb-[100px]">
+      <section className="py-16 text-center bg-[#680000] text-white px-6 mt-20 pb-[100px] font-sans">
         <h2 className="text-3xl font-bold mb-4">Connect with me on LinkedIn</h2>
         <p className="text-gray-200 mb-6">
           Lihat pengalaman, proyek, dan jaringan profesional saya secara lengkap di LinkedIn.
