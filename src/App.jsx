@@ -1,6 +1,7 @@
 import PageLayout from "./components/Layouts/PageLayout";
 import HeroSection from "./components/hero/HeroSection";
 import About from "./components/about/About";
+import Skills from "./components/skill/Skills";
 import Projects from "./components/projects/Projects";
 import Certificate from "./components/certificate/Certificate";
 import Gallery from "./components/gallery/Gallery";
@@ -12,6 +13,7 @@ const App = () => {
     <PageLayout>
       <HeroSection />
       <About />
+      <Skills />  
       <Projects />
       <Certificate />
       <Gallery />
